@@ -1,0 +1,14 @@
+{
+  "name": "remote-execute",
+  "version": "1.0.1",
+  "description": "Allows remote execution of any commands followed by the keyword 'execute' - NOTE VERY DANGROUS as it enables Alexa to run all sorts of malicious commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa-remote-desktop"
+  ],
+  "author": "",
+  "license": "ISC"
+}

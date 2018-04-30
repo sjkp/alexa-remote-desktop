@@ -1,0 +1,17 @@
+{
+  "name": "alexa-remote-sleep",
+  "version": "1.0.6",
+  "os": [
+    "win32"
+  ],
+  "description": "Put your computer to sleep, by saying \"Alexa remote desktop do sleep\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa-remote-desktop"
+  ],
+  "author": "SJKP",
+  "license": "ISC"
+}

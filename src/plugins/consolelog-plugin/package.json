@@ -1,0 +1,14 @@
+{
+  "name": "consolelog-plugin",
+  "version": "1.0.0",
+  "description": "Logs all remote commands recieved to console.log",
+  "keywords": [
+    "alexa-remote-desktop"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

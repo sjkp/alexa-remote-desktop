@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bulma.min.css">
+</head>
+<script src="pluginpage.js">
+</script>
+
+<body>
+        
+              
+    <section class="section">
+        <div class="container">
+                <article class="message is-danger is-hidden" id="error">
+                        <div class="message-header">
+                            <p>Danger</p>
+                            <button class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body" id="errorbody">
+                            
+                        </div>
+                    </article>
+            <h1 class="title">
+                Plugins
+            </h1>
+            <p class="subtitle">
+                Plugins are pieces of code that enable Alexa to remote control you computer. Each plugin serve a specific purpose, and you
+                can install as many as you like. E.g. installing the alexa-remote-sleep plugin enables Alexa to put your computer
+                to sleep.
+            </p>
+            <p class="subtitle">
+                Plugins are developed by the community, and you can even build your own, read more <a id="link" href="https://github.com/sjkp/alexa-remote-desktop/wiki/Create-Plugins" target="_blank">here</a>.
+            </p>
+
+
+            <div class="field is-grouped">
+                <p class="control is-expanded">
+                    <input class="input" id="searchinput" type="text" placeholder="Find a plugin">
+                </p>
+                <p class="control">
+                    <a class="button is-info" id="search">
+                        Search
+                    </a>
+                </p>
+            </div>
+
+            <table class="table is-fullwidth" id="pluginlist">
+
+            </table>
+        </div>
+    </section>
+
+</body>
+
+</html>
